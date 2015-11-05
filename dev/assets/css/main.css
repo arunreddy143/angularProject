@@ -1,0 +1,77 @@
+body {
+	margin:0;
+	padding:10px;
+	background: #CCC;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+
+
+.clockWrap {
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+}
+
+.clockTicks{
+  border-radius: 3px;
+  /*background: #00BF96;*/
+  float: left;
+  margin-left:10px;
+}
+
+.clockTicks span {
+  padding: 5px 5px;
+  display: inline-block;
+}
+
+.smalltext {
+  padding-top: 5px;
+  font-size: 16px;
+}
+.countDownhero .slide-content {
+  float:left;
+  width:45%;
+}
+
+.countDownhero .clockWrap {
+  margin-top:50px;
+  float:left;
+  position:absolute;
+  right:0;
+}
+.clockHeader {
+  font-size:20px;
+  display:block;
+  padding:5px;
+
+}
+.hero li.timerComplete {
+  background-position:center bottom;
+}
+@media screen and (min-width: 575px) {
+  
+      .countDownhero .clockWrap .split{
+
+        padding:10px;
+        font-size:20px;
+      }
+      .countDownhero .clockWrap {
+        right:15%;
+      }
+  
+}
+
+@media screen and (min-width: 815px) {
+  
+      .countDownhero .clockWrap .split{
+
+        padding:15px;
+        font-size:28px;
+      }
+  
+}

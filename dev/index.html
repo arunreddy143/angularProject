@@ -1,0 +1,33 @@
+<!doctype html>
+<html data-ng-app="myApp">
+<head>
+	<title> Angular js POC</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body data-ng-cloak data-ng-controller="oAuthController">
+
+<h1> OAuth autentication</h1>
+<ul>
+	<li><a href="" data-ng-click="facebookLogin()">Facebook</a> </li>
+	<li><a href="" data-ng-click="twitterLogin()">Twitter</a> </li>
+	<li><a href="" data-ng-click="linkedLogin()">Linked in</a> </li>
+</ul>
+User Response
+<pre>
+	{{userResponse | json }}
+</pre>
+<hr />
+Note:
+1) What is OAuth http://devcenter.kinvey.com/angular/tutorials/how-to-implement-safe-signin-via-oauth
+2) facebook link : (reference <a href="http://plnkr.co/edit/mA7dzreUlqqTJZqodAzv?p=preview">more info</a>)
+
+<script type="text/javascript" src="assets/js/jquery.js"></script>
+<script type="text/javascript" src="assets/js/angular.min.js"></script>
+<script type="text/javascript" src="assets/js/facebook.js"></script>
+<script type"text/javascript" src="assets/js/app.js"></script>
+
+</body>
+</html>
